@@ -1,0 +1,428 @@
+2021-3-18 16:47:2:354 (field_trial.cc:140): Setting field trial string:WebRTC-Audio-Allocation/min:32kbps,max:512kbps/WebRTC-Audio-OpusMinPacketLossRate/Enabled-1/
+2021-3-18 16:47:2:354 (openssl_key_pair.cc:38): Making key pair
+2021-3-18 16:47:2:354 (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 1
+Capture post processor: 0
+Render pre processor: 0
+2021-3-18 16:47:2:354 (openssl_key_pair.cc:91): Returning key pair
+2021-3-18 16:47:2:354 (openssl_certificate.cc:59): Making certificate for WebRTC
+2021-3-18 16:47:2:354 (FileAudioDevice.cpp:487): Create
+2021-3-18 16:47:2:354 (FileAudioDevice.cpp:496): CreateForTest
+2021-3-18 16:47:2:355 (openssl_certificate.cc:109): Returning certificate
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:65): AudioDeviceBuffer::ctor
+2021-3-18 16:47:2:355 (audio_device_impl.cc:122): AudioDeviceModuleImpl
+2021-3-18 16:47:2:355 (dtls_srtp_transport.cc:62): Setting RTCP Transport on null transport 0
+2021-3-18 16:47:2:355 (audio_device_impl.cc:126): CheckPlatform
+2021-3-18 16:47:2:355 (dtls_srtp_transport.cc:67): Setting RTP Transport on null transport 0
+2021-3-18 16:47:2:355 (audio_device_impl.cc:137): current platform is Linux
+2021-3-18 16:47:2:355 (audio_device_impl.cc:313): AttachAudioBuffer
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:181): SetRecordingSampleRate(0)
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:187): SetPlayoutSampleRate(0)
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:201): SetRecordingChannels(0)
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:207): SetPlayoutChannels(0)
+2021-3-18 16:47:2:355 (audio_device_impl.cc:333): Init
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:375): Start getting ports with turn_port_prune_policy 0
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:375): Start getting ports with turn_port_prune_policy 0
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:265): WebRtcVoiceEngine::WebRtcVoiceEngine
+2021-3-18 16:47:2:355 (webrtc_video_engine.cc:628): WebRtcVideoEngine::WebRtcVideoEngine()
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:532): Set backup connection ping interval to 25000 milliseconds.
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:541): Set ICE receiving timeout to 2500 milliseconds
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:548): Set ping most likely connection to 1
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:555): Set stable_writable_connection_ping_interval to 2500
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:568): Set presume writable when fully relayed to 0
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:586): Set regather_on_failed_networks_interval to 8000
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:593): Set receiving_switching_delay to 1000
+2021-3-18 16:47:2:355 (p2p_transport_channel.cc:466): Set ICE ufrag: 8Po/ pwd: cLKPOqK9E/OBRX0Xo0w652BE on transport transport
+2021-3-18 16:47:2:355 (dtls_srtp_transport.cc:62): Setting RTCP Transport on transport transport 0
+2021-3-18 16:47:2:355 (dtls_srtp_transport.cc:67): Setting RTP Transport on transport transport b4005700
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:111): Filtered out ignored networks:
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=3]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:127.0.0.x/8:Loopback:id=2]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:861): Network manager has started
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:111): Filtered out ignored networks:
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=3]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:127.0.0.x/8:Loopback:id=2]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:861): Network manager has started
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:111): Filtered out ignored networks:
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=3]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:127.0.0.x/8:Loopback:id=2]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:111): Filtered out ignored networks:
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=3]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:127.0.0.x/8:Loopback:id=2]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:111): Filtered out ignored networks:
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=3]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:127.0.0.x/8:Loopback:id=2]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:776): Allocate ports on 1 networks
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:111): Filtered out ignored networks:
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=3]
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:287): WebRtcVoiceEngine::Init
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:113): Net[lo:127.0.0.x/8:Loopback:id=2]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:776): Allocate ports on 1 networks
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:1360): Net[eth0:172.17.224.x/20:Ethernet:id=1]: Allocation Phase=Udp
+2021-3-18 16:47:2:355 (port.cc:186): Port[b4006d70::1:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Port created with network cost 0
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:885): Adding allocated port for 
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:906): Port[b4006d70::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Added port to allocator
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:924): Port[b4006d70::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Gathered candidate: Cand[:428432798:0:udp:2122260224:172.17.231.x:48877:local::0:Q8mW:mZEfzhhkUIUp1B1l2HnD2PwN:1:0:0]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:957): Port[b4006d70::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Port ready.
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:1068): Port[b4006d70::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Port completed gathering candidates.
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:1472): AllocationSequence: No STUN server configured, skipping.
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:1360): Net[eth0:172.17.224.x/20:Ethernet:id=1]: Allocation Phase=Udp
+2021-3-18 16:47:2:355 (port.cc:186): Port[b4045ee0::1:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Port created with network cost 0
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:885): Adding allocated port for 
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:906): Port[b4045ee0::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Added port to allocator
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:924): Port[b4045ee0::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Gathered candidate: Cand[:428432798:0:udp:2122260224:172.17.231.x:37305:local::0:BY7E:lf8I9uulTYwqPBaAaGmrCWle:1:0:0]
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:957): Port[b4045ee0::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Port ready.
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:1068): Port[b4045ee0::0:0:local:Net[eth0:172.17.224.x/20:Ethernet:id=1]]: Port completed gathering candidates.
+2021-3-18 16:47:2:355 (basic_port_allocator.cc:1472): AllocationSequence: No STUN server configured, skipping.
+2021-3-18 16:47:2:355 (audio_device_impl.cc:333): Init
+2021-3-18 16:47:2:355 (audio_device_impl.cc:677): SetPlayoutDevice(0)
+2021-3-18 16:47:2:355 (audio_device_impl.cc:366): InitSpeaker
+2021-3-18 16:47:2:355 (adm_helpers.cc:48): Unable to access speaker.
+2021-3-18 16:47:2:355 (audio_device_impl.cc:581): StereoPlayoutIsAvailable
+2021-3-18 16:47:2:355 (audio_device_impl.cc:588): output: 1
+2021-3-18 16:47:2:355 (audio_device_impl.cc:593): SetStereoPlayout(1)
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:207): SetPlayoutChannels(2)
+2021-3-18 16:47:2:355 (audio_device_impl.cc:739): SetRecordingDevice(0)
+2021-3-18 16:47:2:355 (audio_device_impl.cc:372): InitMicrophone
+2021-3-18 16:47:2:355 (audio_device_impl.cc:535): StereoRecordingIsAvailable
+2021-3-18 16:47:2:355 (audio_device_impl.cc:542): output: 1
+2021-3-18 16:47:2:355 (audio_device_impl.cc:547): SetStereoRecording(1)
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:201): SetRecordingChannels(2)
+2021-3-18 16:47:2:355 (audio_device_impl.cc:852): RegisterAudioCallback
+2021-3-18 16:47:2:355 (audio_device_buffer.cc:82): RegisterAudioCallback
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 1, agc: 1, ns: 1, hf: 1, swap: 0, audio_jitter_buffer_max_packets: 200, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 1, experimental_agc: 0, experimental_ns: 0, residual_echo_detector: 1, }
+2021-3-18 16:47:2:355 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:355 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:355 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:355 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:355 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:355 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:355 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:355 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:355 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:492): Stereo swapping enabled? 0
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:497): NetEq capacity is 200
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:503): NetEq fast mode? 0
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:509): NetEq minimum delay is 0
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:586): NS set to 1
+2021-3-18 16:47:2:355 (webrtc_voice_engine.cc:590): Typing detection is enabled? 1
+2021-3-18 16:47:2:355 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 1 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:356 (agc_manager_direct.cc:69): [agc] GetMinMicLevel
+2021-3-18 16:47:2:356 (agc_manager_direct.cc:73): [agc] Using default min mic level: 12
+2021-3-18 16:47:2:356 (bitrate_prober.cc:72): Bandwidth probing enabled, set to inactive
+2021-3-18 16:47:2:356 (aimd_rate_control.cc:113): Using aimd rate control with back off factor 0.85
+2021-3-18 16:47:2:356 (remote_bitrate_estimator_single_stream.cc:72): RemoteBitrateEstimatorSingleStream: Instantiating.
+2021-3-18 16:47:2:356 (remote_estimator_proxy.cc:50): Maximum interval between transport feedback RTCP messages (ms): 250
+2021-3-18 16:47:2:356 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:356 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:356 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:356 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:356 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:356 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:356 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:356 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:356 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:356 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:356 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:356 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:356 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:356 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:356 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:356 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:356 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:356 (channel.cc:145): Created channel: {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:356 (rtp_demuxer.cc:144): Added sink = b8051c58 for criteria {mid: audio1, rsid: <empty>, ssrcs: [], payload_types = []}
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:2060): ResetUnsignaledRecvStream.
+2021-3-18 16:47:2:357 (channel.cc:905): Setting local voice description for {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:1471): WebRtcVoiceMediaChannel::SetRecvParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[112:l16:48000:0:1]], extensions: []}
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:1639): Setting receive voice codecs.
+2021-3-18 16:47:2:357 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:357 (channel.cc:967): Setting remote voice description for {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:1425): WebRtcVoiceMediaChannel::SetSendParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[112:l16:48000:0:1]], extensions: [], extmap-allow-mixed: false, max_bandwidth_bps: -1, mid: audio1, options: AudioOptions {}}
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:2322): WebRtcVoiceMediaChannel::SetMaxSendBitrate.
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {}
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:357 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:357 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:357 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:357 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:357 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:357 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:357 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:357 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:357 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:357 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:357 (webrtc_voice_engine.cc:1995): AddRecvStream: {ssrcs:[1];ssrc_groups:;stream_ids:stream1;}
+2021-3-18 16:47:2:357 (paced_sender.cc:186): ProcessThreadAttached 0xb80d7fc0
+2021-3-18 16:47:2:357 (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+2021-3-18 16:47:2:357 (decision_logic.cc:64): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+2021-3-18 16:47:2:357 (neteq_impl.cc:166): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=true, enable_rtx_handling=false, extra_output_delay_ms=0
+2021-3-18 16:47:2:357 (audio_receive_stream.cc:123): AudioReceiveStream: 1
+2021-3-18 16:47:2:357 (rtp_demuxer.cc:144): Added sink = b808b6b0 for criteria {mid: <empty>, rsid: <empty>, ssrcs: [1, ], payload_types = []}
+2021-3-18 16:47:2:357 (audio_receive_stream.cc:373): AudioReceiveStream::ConfigureStream: {rtp: {remote_ssrc: 1, local_ssrc: 4195875351, transport_cc: off, nack: {rtp_history_ms: 0}, extensions: []}, rtcp_send_transport: (Transport), sync_group: stream1}
+2021-3-18 16:47:2:357 (channel.cc:743): Add remote ssrc: 1 to {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:357 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:357 (rtp_demuxer.cc:240): Removed sink = b8051c58 bindings
+2021-3-18 16:47:2:357 (rtp_demuxer.cc:144): Added sink = b8051c58 for criteria {mid: audio1, rsid: <empty>, ssrcs: [1, ], payload_types = []}
+2021-3-18 16:47:2:357 (channel.cc:541): Channel enabled: {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:357 (audio_device_impl.cc:814): Playing
+2021-3-18 16:47:2:357 (audio_device_impl.cc:751): InitPlayout
+2021-3-18 16:47:2:357 (audio_device_impl.cc:777): PlayoutIsInitialized
+2021-3-18 16:47:2:357 (audio_device_buffer.cc:187): SetPlayoutSampleRate(48000)
+2021-3-18 16:47:2:357 (audio_device_buffer.cc:207): SetPlayoutChannels(2)
+2021-3-18 16:47:2:357 (audio_device_impl.cc:757): output: 0
+2021-3-18 16:47:2:357 (audio_device_impl.cc:789): StartPlayout
+2021-3-18 16:47:2:357 (audio_device_impl.cc:814): Playing
+2021-3-18 16:47:2:357 (audio_device_buffer.cc:99): StartPlayout
+2021-3-18 16:47:2:358 (FileAudioDevice.cpp:203): Started playout capture to output file: 
+2021-3-18 16:47:2:358 (audio_device_impl.cc:796): output: 0
+2021-3-18 16:47:2:358 (channel.cc:896): Changing voice state, recv=1 send=0 for {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:358 (audio_device_buffer.cc:288): Size of playout buffer: 960
+2021-3-18 16:47:2:738 (GroupInstanceCustomImpl.cpp:1866): 3323.198: setJoinResponsePayload
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:738 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:738 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:738 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:738 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:738 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:738 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:738 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:738 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:738 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:738 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:738 (p2p_transport_channel.cc:477): Received remote ICE parameters: ufrag=4n3uu1f12gr9u7, renomination disabled
+2021-3-18 16:47:2:738 (channel.cc:145): Created channel: {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:738 (connection.cc:312): Conn[b403fe10:transport:Net[eth0:172.17.224.x/20:Ethernet:id=1]:wX5hKex5:0:0:local:udp:172.17.231.x:48877->cl1cUCcK:1:2130706431:host:udp:91.108.17.x:32003|C--W|-|0|0|9115038259943047167|-]: Connection created
+2021-3-18 16:47:2:738 (p2p_transport_channel.cc:1405): Channel[transport|0|__]: Created connection with origin: 2, total: 1
+2021-3-18 16:47:2:738 (p2p_transport_channel.cc:1859): Channel[transport|0|__]: Transport channel state changed from 0 to 2
+2021-3-18 16:47:2:738 (p2p_transport_channel.cc:1639): Channel[transport|0|__]: Have a pingable connection for the first time; starting to ping.
+2021-3-18 16:47:2:738 (dtls_transport.cc:383): DtlsTransport[transport|0|__]: DTLS setup complete.
+2021-3-18 16:47:2:738 (rtp_demuxer.cc:144): Added sink = b809ff58 for criteria {mid: audio2590100893, rsid: <empty>, ssrcs: [], payload_types = []}
+2021-3-18 16:47:2:738 (connection.cc:1168): Conn[b403fe10:transport:Net[eth0:172.17.224.x/20:Ethernet:id=1]:wX5hKex5:0:0:local:udp:172.17.231.x:48877->cl1cUCcK:1:2130706431:host:udp:91.108.17.x:32003|C--W|-|0|0|9115038259943047167|-]: Sent STUN BINDING request, id=63366255736d51636a5a3234, use_candidate=0, nomination=0
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:2060): ResetUnsignaledRecvStream.
+2021-3-18 16:47:2:738 (channel.cc:905): Setting local voice description for {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:1471): WebRtcVoiceMediaChannel::SetRecvParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[112:l16:48000:0:1]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}]}
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:1639): Setting receive voice codecs.
+2021-3-18 16:47:2:738 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:738 (channel.cc:967): Setting remote voice description for {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:738 (webrtc_voice_engine.cc:1425): WebRtcVoiceMediaChannel::SetSendParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[112:l16:48000:0:1]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}], extmap-allow-mixed: false, max_bandwidth_bps: -1, mid: audio2590100893, options: AudioOptions {}}
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:2322): WebRtcVoiceMediaChannel::SetMaxSendBitrate.
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {}
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:739 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:739 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:739 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:739 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:739 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:739 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:739 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:739 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:739 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:739 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:1995): AddRecvStream: {ssrcs:[2590100893];ssrc_groups:;stream_ids:stream2590100893;}
+2021-3-18 16:47:2:739 (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+2021-3-18 16:47:2:739 (decision_logic.cc:64): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+2021-3-18 16:47:2:739 (neteq_impl.cc:166): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=true, enable_rtx_handling=false, extra_output_delay_ms=0
+2021-3-18 16:47:2:739 (audio_receive_stream.cc:123): AudioReceiveStream: 2590100893
+2021-3-18 16:47:2:739 (rtp_demuxer.cc:144): Added sink = b80f9e80 for criteria {mid: <empty>, rsid: <empty>, ssrcs: [2590100893, ], payload_types = []}
+2021-3-18 16:47:2:739 (audio_receive_stream.cc:373): AudioReceiveStream::ConfigureStream: {rtp: {remote_ssrc: 2590100893, local_ssrc: 4195875351, transport_cc: off, nack: {rtp_history_ms: 0}, extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}]}, rtcp_send_transport: (Transport), sync_group: stream2590100893}
+2021-3-18 16:47:2:739 (channel.cc:743): Add remote ssrc: 2590100893 to {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:739 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:739 (rtp_demuxer.cc:240): Removed sink = b809ff58 bindings
+2021-3-18 16:47:2:739 (rtp_demuxer.cc:144): Added sink = b809ff58 for criteria {mid: audio2590100893, rsid: <empty>, ssrcs: [2590100893, ], payload_types = []}
+2021-3-18 16:47:2:739 (channel.cc:541): Channel enabled: {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:739 (audio_device_impl.cc:814): Playing
+2021-3-18 16:47:2:739 (channel.cc:896): Changing voice state, recv=1 send=0 for {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:739 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:739 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:739 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:739 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:739 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:739 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:739 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:739 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:739 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:739 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:739 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:739 (channel.cc:145): Created channel: {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:739 (rtp_demuxer.cc:144): Added sink = b80269d8 for criteria {mid: audio118622373, rsid: <empty>, ssrcs: [], payload_types = []}
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:2060): ResetUnsignaledRecvStream.
+2021-3-18 16:47:2:740 (channel.cc:905): Setting local voice description for {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:1471): WebRtcVoiceMediaChannel::SetRecvParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[112:l16:48000:0:1]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}]}
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:1639): Setting receive voice codecs.
+2021-3-18 16:47:2:740 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:740 (channel.cc:967): Setting remote voice description for {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:1425): WebRtcVoiceMediaChannel::SetSendParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[112:l16:48000:0:1]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}], extmap-allow-mixed: false, max_bandwidth_bps: -1, mid: audio118622373, options: AudioOptions {}}
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:2322): WebRtcVoiceMediaChannel::SetMaxSendBitrate.
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {}
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:740 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:740 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:740 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:740 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:740 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:740 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:740 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:740 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:740 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:740 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:740 (webrtc_voice_engine.cc:1995): AddRecvStream: {ssrcs:[118622373];ssrc_groups:;stream_ids:stream118622373;}
+2021-3-18 16:47:2:740 (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+2021-3-18 16:47:2:740 (decision_logic.cc:64): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+2021-3-18 16:47:2:740 (neteq_impl.cc:166): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=true, enable_rtx_handling=false, extra_output_delay_ms=0
+2021-3-18 16:47:2:740 (audio_receive_stream.cc:123): AudioReceiveStream: 118622373
+2021-3-18 16:47:2:740 (rtp_demuxer.cc:144): Added sink = b802d600 for criteria {mid: <empty>, rsid: <empty>, ssrcs: [118622373, ], payload_types = []}
+2021-3-18 16:47:2:740 (audio_receive_stream.cc:373): AudioReceiveStream::ConfigureStream: {rtp: {remote_ssrc: 118622373, local_ssrc: 4195875351, transport_cc: off, nack: {rtp_history_ms: 0}, extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}]}, rtcp_send_transport: (Transport), sync_group: stream118622373}
+2021-3-18 16:47:2:740 (channel.cc:743): Add remote ssrc: 118622373 to {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:740 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:740 (rtp_demuxer.cc:240): Removed sink = b80269d8 bindings
+2021-3-18 16:47:2:740 (rtp_demuxer.cc:144): Added sink = b80269d8 for criteria {mid: audio118622373, rsid: <empty>, ssrcs: [118622373, ], payload_types = []}
+2021-3-18 16:47:2:740 (channel.cc:541): Channel enabled: {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:740 (audio_device_impl.cc:814): Playing
+2021-3-18 16:47:2:740 (channel.cc:896): Changing voice state, recv=1 send=0 for {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:786 (connection.cc:1168): Conn[b403fe10:transport:Net[eth0:172.17.224.x/20:Ethernet:id=1]:wX5hKex5:0:0:local:udp:172.17.231.x:48877->cl1cUCcK:1:2130706431:host:udp:91.108.17.x:32003|C--I|-|0|0|9115038259943047167|-]: Sent STUN BINDING request, id=306d625749304e6453347534, use_candidate=0, nomination=0
+2021-3-18 16:47:2:789 (connection.cc:1083): Conn[b403fe10:transport:Net[eth0:172.17.224.x/20:Ethernet:id=1]:wX5hKex5:0:0:local:udp:172.17.231.x:48877->cl1cUCcK:1:2130706431:host:udp:91.108.17.x:32003|C--I|-|0|0|9115038259943047167|-]: Received STUN BINDING response, id=63366255736d51636a5a3234, code=0, rtt=51, pings_since_last_response=63366255736d51636a5a3234 306d625749304e6453347534 
+2021-3-18 16:47:2:789 (connection.cc:1306): Conn[b403fe10:transport:Net[eth0:172.17.224.x/20:Ethernet:id=1]:wX5hKex5:0:0:local:udp:172.17.231.x:48877->cl1cUCcK:1:2130706431:host:udp:91.108.17.x:32003|CRWS|-|0|0|9115038259943047167|51]: Updating local candidate type to prflx.
+2021-3-18 16:47:2:789 (p2p_transport_channel.cc:277): Switching selected connection due to: candidate pair state changed
+2021-3-18 16:47:2:789 (p2p_transport_channel.cc:1753): Channel[transport|0|__]: New selected connection: Conn[b403fe10:transport:Net[eth0:172.17.224.x/20:Ethernet:id=1]:9fgyb/kY:0:0:prflx:udp:202.164.139.x:13477->cl1cUCcK:1:2130706431:host:udp:91.108.17.x:32003|CRWS|S|0|0|7962116755336200191|51]
+2021-3-18 16:47:2:789 (channel.cc:392): Network route for {mid: audio1, media_type: audio} was changed.
+2021-3-18 16:47:2:789 (channel.cc:392): Network route for {mid: audio2590100893, media_type: audio} was changed.
+2021-3-18 16:47:2:789 (channel.cc:392): Network route for {mid: audio118622373, media_type: audio} was changed.
+2021-3-18 16:47:2:789 (rtp_transport_controller_send.cc:301): Network route changed on transport transport: new_route = [ connected: 1 local: [ 1/1 Ethernet turn: 0 ] remote: [ 1/0 Ethernet turn: 0 ] packet_overhead_bytes: 28 ]
+2021-3-18 16:47:2:789 (dtls_transport.cc:834): DtlsTransport[transport|0|__]: configuring DTLS handshake timeout 102 based on ICE RTT 51
+2021-3-18 16:47:2:790 (dtls_transport.cc:739): DtlsTransport[transport|0|__]: DtlsTransport: Started DTLS handshake
+2021-3-18 16:47:2:790 (srtp_transport.cc:366): The params in SRTP transport are reset.
+2021-3-18 16:47:2:790 (basic_port_allocator.cc:1143): All candidates gathered for transport:0:0
+2021-3-18 16:47:2:790 (p2p_transport_channel.cc:952): P2PTransportChannel: transport, component 0 gathering complete
+2021-3-18 16:47:2:954 (dtls_transport.cc:667): DtlsTransport[transport|0|__]: DTLS handshake complete.
+2021-3-18 16:47:2:954 (dtls_srtp_transport.cc:220): Extracting keys from transport: transport
+2021-3-18 16:47:2:954 (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to up
+2021-3-18 16:47:2:954 (rtp_transport_controller_send.cc:599): Creating fallback congestion controller
+2021-3-18 16:47:2:954 (alr_experiment.cc:79): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR bandwidth usage percent: 80, ALR start budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+2021-3-18 16:47:2:954 (trendline_estimator.cc:185): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+2021-3-18 16:47:2:954 (trendline_estimator.cc:185): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+2021-3-18 16:47:2:954 (aimd_rate_control.cc:113): Using aimd rate control with back off factor 0.85
+2021-3-18 16:47:2:954 (delay_based_bwe.cc:104): Initialized DelayBasedBwe with separate audio overuse detectionenabled:false,packet_threshold:10,time_threshold:1 s and alr limited backoff disabled
+2021-3-18 16:47:2:954 (delay_based_bwe.cc:357): BWE Setting start bitrate to: 32 kbps
+2021-3-18 16:47:2:954 (probe_controller.cc:280): Measured bitrate: 32000 Minimum to probe further: 134400
+2021-3-18 16:47:2:954 (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (96000:180:5)
+2021-3-18 16:47:2:954 (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (192000:360:5)
+2021-3-18 16:47:2:954 (bitrate_allocator.cc:394): Current BWE 32000
+2021-3-18 16:47:2:957 (srtp_transport.cc:311): SRTP activated with negotiated parameters: send cipher_suite 7 recv cipher_suite 7
+2021-3-18 16:47:2:957 (channel.cc:571): Channel writable ({mid: audio1, media_type: audio}) for the first time
+2021-3-18 16:47:2:957 (channel.cc:571): Channel writable ({mid: audio2590100893, media_type: audio}) for the first time
+2021-3-18 16:47:2:957 (channel.cc:571): Channel writable ({mid: audio118622373, media_type: audio}) for the first time
+2021-3-18 16:47:2:957 (channel.cc:896): Changing voice state, recv=1 send=0 for {mid: audio1, media_type: audio}
+2021-3-18 16:47:2:957 (channel.cc:896): Changing voice state, recv=1 send=0 for {mid: audio2590100893, media_type: audio}
+2021-3-18 16:47:2:957 (channel.cc:896): Changing voice state, recv=1 send=0 for {mid: audio118622373, media_type: audio}
+2021-3-18 16:47:2:957 (GroupInstanceCustomImpl.cpp:1509): 3323.417: setIsRtcConnected: 1
+2021-3-18 16:47:2:957 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:957 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:957 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:957 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:957 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:957 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:957 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:957 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:957 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:957 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:957 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:957 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:957 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:957 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:957 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:957 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:957 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:957 (channel.cc:145): Created channel: {mid: 0, media_type: audio}
+2021-3-18 16:47:2:957 (rtp_demuxer.cc:144): Added sink = b8064718 for criteria {mid: 0, rsid: <empty>, ssrcs: [], payload_types = []}
+2021-3-18 16:47:2:957 (channel.cc:571): Channel writable ({mid: 0, media_type: audio}) for the first time
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:2060): ResetUnsignaledRecvStream.
+2021-3-18 16:47:2:958 (channel.cc:905): Setting local voice description for {mid: 0, media_type: audio}
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:1471): WebRtcVoiceMediaChannel::SetRecvParameters: {codecs: [AudioCodec[111:opus:48000:0:2]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}]}
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:1639): Setting receive voice codecs.
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:1930): AddSendStream: {ssrcs:[143328951];ssrc_groups:;stream_ids:;}
+2021-3-18 16:47:2:958 (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+2021-3-18 16:47:2:958 (decision_logic.cc:64): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+2021-3-18 16:47:2:958 (neteq_impl.cc:166): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=false, enable_rtx_handling=false, extra_output_delay_ms=0
+2021-3-18 16:47:2:958 (audio_coding_module.cc:224): Created
+2021-3-18 16:47:2:958 (audio_send_stream.cc:162): AudioSendStream: 143328951
+2021-3-18 16:47:2:958 (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 143328951, extmap-allow-mixed: false, extensions: [], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: <unset>}
+2021-3-18 16:47:2:958 (channel.cc:692): Add send stream ssrc: 143328951 into {mid: 0, media_type: audio}
+2021-3-18 16:47:2:958 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: 0, media_type: audio}
+2021-3-18 16:47:2:958 (channel.cc:967): Setting remote voice description for {mid: 0, media_type: audio}
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:1425): WebRtcVoiceMediaChannel::SetSendParameters: {codecs: [AudioCodec[111:opus:48000:0:2]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}], extmap-allow-mixed: false, max_bandwidth_bps: -1, mid: 0, options: AudioOptions {}}
+2021-3-18 16:47:2:958 (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 143328951, extmap-allow-mixed: false, extensions: [], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 510000, max_bitrate_bps: 510000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: true, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 111, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {maxaveragebitrate: 510000, minptime: 10, ptime: 120, usedtx: 0, useinbandfec: 0, x-google-max-bitrate: 512, x-google-min-bitrate: 32, x-google-start-bitrate: 128}}}}
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:1848): Recreate all the receive streams because the send codec has changed.
+2021-3-18 16:47:2:958 (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 143328951, extmap-allow-mixed: false, extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 510000, max_bitrate_bps: 510000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: true, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 111, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {maxaveragebitrate: 510000, minptime: 10, ptime: 120, usedtx: 0, useinbandfec: 0, x-google-max-bitrate: 512, x-google-min-bitrate: 32, x-google-start-bitrate: 128}}}}
+2021-3-18 16:47:2:958 (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 143328951, mid: 0, extmap-allow-mixed: false, extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 3}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 2}, {uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 510000, max_bitrate_bps: 510000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: true, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 111, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {maxaveragebitrate: 510000, minptime: 10, ptime: 120, usedtx: 0, useinbandfec: 0, x-google-max-bitrate: 512, x-google-min-bitrate: 32, x-google-start-bitrate: 128}}}}
+2021-3-18 16:47:2:958 (delay_based_bwe.cc:357): BWE Setting start bitrate to: 128 kbps
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:2322): WebRtcVoiceMediaChannel::SetMaxSendBitrate.
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:1611): Setting voice channel options: AudioOptions {}
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:958 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:958 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:958 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:958 (probe_controller.cc:280): Measured bitrate: 128000 Minimum to probe further: 134400
+2021-3-18 16:47:2:958 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:958 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:958 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:958 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:958 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:958 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:958 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
+2021-3-18 16:47:2:958 (webrtc_voice_engine.cc:1629): Set voice channel options. Current options: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:958 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: 0, media_type: audio}
+2021-3-18 16:47:2:959 (rtp_demuxer.cc:240): Removed sink = b8064718 bindings
+2021-3-18 16:47:2:959 (rtp_demuxer.cc:144): Added sink = b8064718 for criteria {mid: 0, rsid: <empty>, ssrcs: [], payload_types = []}
+2021-3-18 16:47:2:959 (channel.cc:541): Channel enabled: {mid: 0, media_type: audio}
+2021-3-18 16:47:2:959 (channel.cc:896): Changing voice state, recv=0 send=0 for {mid: 0, media_type: audio}
+2021-3-18 16:47:2:959 (webrtc_voice_engine.cc:383): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 0, agc: 0, ns: 0, hf: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 0, residual_echo_detector: 0, }
+2021-3-18 16:47:2:959 (audio_device_impl.cc:868): BuiltInAECIsAvailable
+2021-3-18 16:47:2:959 (audio_device_generic.cc:18): BuiltInAECIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:959 (audio_device_impl.cc:871): output: 0
+2021-3-18 16:47:2:959 (audio_device_impl.cc:884): BuiltInAGCIsAvailable
+2021-3-18 16:47:2:959 (audio_device_generic.cc:28): BuiltInAGCIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:959 (audio_device_impl.cc:887): output: 0
+2021-3-18 16:47:2:959 (audio_device_impl.cc:900): BuiltInNSIsAvailable
+2021-3-18 16:47:2:959 (audio_device_generic.cc:38): BuiltInNSIsAvailable: Not supported on this platform
+2021-3-18 16:47:2:959 (audio_device_impl.cc:903): output: 0
+2021-3-18 16:47:2:959 (webrtc_voice_engine.cc:515): NetEq handle reordered packets? 0
+2021-3-18 16:47:2:959 (webrtc_voice_engine.cc:535): Experimental ns is enabled? 0
+2021-3-18 16:47:2:959 (webrtc_voice_engine.cc:586): NS set to 0
+2021-3-18 16:47:2:959 (webrtc_voice_engine.cc:590): Typing detection is enabled? 0
+2021-3-18 16:47:2:959 (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: {maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0}, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0}, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2}, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 } }, residual_echo_detector: { enabled: 0 }, level_estimation: { enabled: 0 }}}
